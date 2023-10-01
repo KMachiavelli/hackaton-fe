@@ -1,22 +1,13 @@
-import { Typography } from "@mui/material";
-import { LandingButtons } from "../LandingButtons/LandingButtons";
-import { StyledLandingContent } from "./styles";
+import { Typography } from '@mui/material';
+import { LandingButtons } from '../LandingButtons/LandingButtons';
+import { StyledLandingContent } from './styles';
 
 export const LandingContent = () => {
   return (
     <StyledLandingContent>
       <Typography variant="body1">
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour, or
-        randomised words which don't look even slightly believable. If you are
-        going to use a passage of Lorem Ipsum, you need to be sure there isn't
-        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-        generators on the Internet tend to repeat predefined chunks as
-        necessary, making this the first true generator on the Internet. It uses
-        a dictionary of over 200 Latin words, combined with a handful of model
-        sentence structures, to generate Lorem Ipsum which looks reasonable. The
-        generated Lorem Ipsum is therefore always free from repetition, injected
-        humour, or non-characteristic words etc.
+        This application lets you find your lost pet, or help services tracking
+        wild animals, thanks to cameras, AI and other poeple's submits.
       </Typography>
       <LandingButtons />
     </StyledLandingContent>

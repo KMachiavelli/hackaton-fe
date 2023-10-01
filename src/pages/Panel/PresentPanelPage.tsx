@@ -1,5 +1,10 @@
-import { Map } from "../../components/panelPage/Map/Map";
+import { StyledFullPage } from '../styles';
+import { PresentPanel } from '../../components/panelPage/PresentPanel/PresentPanel';
 
 export const PresentPanelPage = () => {
-  return <Map />;
+  return (
+    <StyledFullPage>
+      <PresentPanel />
+    </StyledFullPage>
+  );
 };

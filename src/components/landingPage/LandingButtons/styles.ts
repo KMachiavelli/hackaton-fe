@@ -1,6 +1,6 @@
-import { Button, styled } from "@mui/material";
+import { Button, IconButton, styled } from '@mui/material';
 
-export const StyledLandingButtons = styled("div")`
+export const StyledLandingButtons = styled('div')`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +15,9 @@ export const StyledLandingButtons = styled("div")`
 
 export const StyledLandingButton = styled(Button)`
   width: 100%;
+  gap: 10px;
+`;
+
+export const StyledIconButton = styled(IconButton)`
+  border-radius: ${({ theme }) => theme.spacing(1)};
 `;
